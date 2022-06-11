@@ -92,15 +92,14 @@ function App() {
         </li>
       </ul>
 
-      {/* Add form */}
-      <form className="item-add-form d-flex">
+      <div className="item-add-form d-flex">
         <input
           type="text"
           className="form-control"
           placeholder="What needs to be done"
         />
         <button className="btn btn-outline-secondary">Add item</button>
-      </form>
+      </div>
     </div>
   );
 }
