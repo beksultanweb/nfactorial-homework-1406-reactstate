@@ -3,16 +3,31 @@ import "./App.css";
 // button-group
 const buttons = [
   {
-    name: "all",
+    type: "all",
     label: "All",
   },
   {
-    name: "active",
+    type: "active",
     label: "Active",
   },
   {
-    name: "done",
+    type: "done",
     label: "Done",
+  },
+];
+
+const toDoItems = [
+  {
+    key: 1,
+    label: "Have fun",
+  },
+  {
+    key: 2,
+    label: "Spread Empathy",
+  },
+  {
+    key: 3,
+    label: "Generate Value",
   },
 ];
 
